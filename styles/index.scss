@@ -1,7 +1,53 @@
-@import '../vendor/normalize';
+@import '../vendor/normalize.css';
 
-@import '../vendor/fonts';
+@import '../vendor/fonts.css';
 
 @import './modules/variables';
 @import './modules/functions';
 @import './modules/mixins';
+
+@import './modules/blocks/page/page';
+
+@import './modules/blocks/header/header';
+@import './modules/blocks/header/__navigation/header__navigation';
+@import './modules/blocks/header/__navigation-block/header__navigation-block';
+@import './modules/blocks/header/__navigation-element/header__navigation-element';
+@import './modules/blocks/header/__navigation-link/header__navigation-link';
+
+@import './modules/blocks/content/content';
+
+@import './modules/blocks/button-more-info/button-more-info';
+
+@import './modules/blocks/intro/intro';
+@import './modules/blocks/intro/__grid-element/intro__grid-element';
+@import './modules/blocks/intro/__description-container/intro__description-container';
+@import './modules/blocks/intro/__header/intro__header';
+@import './modules/blocks/intro/__description/intro__description';
+@import './modules/blocks/intro/__bike-name-container/intro__bike-name-container';
+@import './modules/blocks/intro/__bike-name/intro__bike-name';
+@import './modules/blocks/intro/__bike-name-line/intro__bike-name-line';
+@import './modules/blocks/intro/__main-pic/intro__main-pic';
+@import './modules/blocks/intro/__quote-illustration/intro__quote-illustration';
+@import './modules/blocks/intro/__quote/intro__quote';
+@import './modules/blocks/intro/__qoute-author/intro__qoute-author';
+@import './modules/blocks/intro/__quote-author-name/intro__quote-author-name';
+@import './modules/blocks/intro/__quote-author-profession/intro__quote-author-profession';
+
+@import './modules/blocks/track-types/track-types';
+@import './modules/blocks/track-types/__about-track/track-types__about-track';
+@import './modules/blocks/track-types/__track-name/track-types__track-name';
+@import './modules/blocks/track-types/__track-description/track-types__track-description';
+@import './modules/blocks/track-types/__slider/track-types__slider';
+@import './modules/blocks/track-types/__images-container/track-types__images-container';
+@import './modules/blocks/track-types/__track-image/track-types__track-image';
+@import './modules/blocks/track-types/__track-relief-container/track-types__track-relief-container';
+@import './modules/blocks/track-types/__track-relief/track-types__track-relief';
+@import './modules/blocks/track-types/__slider-switchers/track-types__slider-switchers';
+
+@import './modules/blocks/button-switcher/button-switcher';
+@import './modules/blocks/button-switcher/_direction/button-switcher_direction_left';
+@import './modules/blocks/button-switcher/_direction/button-switcher_direction_right';
+
+@import './modules/blocks/footer/footer';
+@import './modules/blocks/footer/__elements/footer__elements';
+@import './modules/blocks/footer/__copyright/footer__copyright';

@@ -1,0 +1,9 @@
+.header {
+  max-width: $sizeInherited;
+  position: sticky;
+  top: 0;
+  background-color: $backgroundLightMode;
+  min-height: 74px;
+  padding: 28px 120px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,5 @@
+.header__navigation-block {
+  @include listStilesDelete;
+  @include flexRow(34px);
+  justify-content: flex-end;
+}

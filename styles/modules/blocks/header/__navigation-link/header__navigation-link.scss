@@ -1,0 +1,5 @@
+.header__navigation-link {
+  text-decoration: $stilesRemoving;
+  color: $colorTypeBlack;
+  @include fontStyle(500, 14px, 18px, right);
+}

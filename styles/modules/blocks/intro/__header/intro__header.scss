@@ -1,0 +1,7 @@
+.intro__header {
+  margin: $zeroSize;
+  padding: $zeroSize;
+  max-width: 460px;
+  @include fontStyle(700, 55px, 60px, left);
+  letter-spacing: -.5px;
+}
