@@ -1,0 +1,5 @@
+.intro__bike-name {
+  margin: $zeroSize;
+  padding: $zeroSize;
+  @include fontStyle(400, 18px, 18px, left);
+}

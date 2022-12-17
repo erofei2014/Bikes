@@ -1,0 +1,7 @@
+.intro__quote-author-profession {
+  margin: $zeroSize;
+  padding: $zeroSize;
+  @include fontStyle(400, 16px, 28px, left);
+  color: $colorTypeGrey;
+  margin-top: 6px;
+}

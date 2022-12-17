@@ -1,0 +1,7 @@
+.intro__description {
+  margin: $zeroSize;
+  padding: $zeroSize;
+  max-width: 460px;
+  @include fontStyle(400, 18px, 28px, left);
+  color: $colorTypeGrey;
+}

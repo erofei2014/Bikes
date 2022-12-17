@@ -1,0 +1,4 @@
+.intro__bike-name-container {
+  @include flexRow(30px);
+  align-items: center;
+}

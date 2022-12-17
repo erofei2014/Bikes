@@ -1,0 +1,8 @@
+.intro__quote {
+  margin: $zeroSize;
+  padding: $zeroSize;
+  @include fontStyle(600, 34px, 44px, left);
+  max-width: 470px;
+  letter-spacing: -.5px;
+  margin-left: 20px;
+}
